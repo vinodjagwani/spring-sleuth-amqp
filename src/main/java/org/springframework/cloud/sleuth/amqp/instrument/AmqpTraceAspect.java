@@ -41,7 +41,7 @@ public class AmqpTraceAspect
         if (null != message)
         {
             Span span = amqpSpanExtractor.joinTrace(message);
-            String spanName = SpanNameUtil.toLowerHyphen("com.starzplay.sleuth.amqp.instrument.AmqpTraceProcessor");
+            String spanName = SpanNameUtil.toLowerHyphen("org.springframework.cloud.sleuth.amqp.instrument.AmqpTraceProcessor");
             startSpan(span, spanName, message);
         }
         object = point.proceed();
