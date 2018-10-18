@@ -11,7 +11,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-boot>1.5.3.RELEASE</spring-boot>
+        <spring-boot>1.5.14.RELEASE</spring-boot>
         <spring-rabbit>1.7.1.RELEASE</spring-rabbit>
         <sleuth-core>1.2.0.RELEASE</sleuth-core>
     </properties>
